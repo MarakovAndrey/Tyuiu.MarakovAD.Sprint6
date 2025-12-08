@@ -13,7 +13,7 @@ namespace Tyuiu.MarakovAD.Sprint6.Task6.V23.Lib
                     string[] fun = line.Split(" ");
                     foreach (string s in fun) {
                         if (s.Contains("s")) { 
-                            resStr += s + " ";
+                            resStr += s;
                         }
                     }
                 }

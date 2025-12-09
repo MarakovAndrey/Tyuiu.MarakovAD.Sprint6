@@ -22,9 +22,9 @@ namespace Tyuiu.MarakovAD.Sprint6.Task7.V4.Lib
             {
                 for (int j = i + 1; j < columns; j++)
                 {
-                    if (arrayalues[2, j] % 4 == 0)
+                    if (arrayalues[i, 2] % 4 == 0)
                     {
-                        arrayalues[2, j] = 4;
+                        arrayalues[i, 2] = 4;
                     }
                 }
             }

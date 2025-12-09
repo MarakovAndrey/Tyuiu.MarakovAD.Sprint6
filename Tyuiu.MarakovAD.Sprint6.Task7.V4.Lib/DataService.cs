@@ -22,7 +22,7 @@ namespace Tyuiu.MarakovAD.Sprint6.Task7.V4.Lib
             {
                 for (int j = i + 1; j < rows; j++)
                 {
-                    if (arrayalues[2, i] % 4 == 0)
+                    if (arrayalues[2, i] % 4.0 == 0)
                     {
                         arrayalues[2, i] = 4;
                     }

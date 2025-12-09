@@ -18,15 +18,12 @@ namespace Tyuiu.MarakovAD.Sprint6.Task7.V4.Lib
                     arrayalues[i,j] = Convert.ToInt32(line_i[j]);
                 }
             }
-            for (int i = 0; i < rows - 1; i++)
+            for (int j = 0; j < columns; j++)
             {
-                for (int j = i + 1; j < columns; j++)
-                {
-                    if (arrayalues[i, 1] % 4 == 0)
+                if (arrayalues[1, j] % 4 == 0)
                     {
-                        arrayalues[i, 1] = 4;
+                        arrayalues[1, j] = 4;
                     }
-                }
             }
             return arrayalues;
         }

@@ -20,9 +20,9 @@ namespace Tyuiu.MarakovAD.Sprint6.Task7.V4.Lib
             }
             for (int i = 0; i < rows - 1; i++)
             {
-                for (int j = i + 1; j < rows; j++)
+                for (int j = i + 1; j < columns; j++)
                 {
-                    if (arrayalues[2, i] % 4.0 == 0)
+                    if (arrayalues[2, i] % 4 == 0)
                     {
                         arrayalues[2, i] = 4;
                     }
